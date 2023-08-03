@@ -6,7 +6,7 @@
       </head>
 
       <div class="container">
-        <h1 class="headText">Hello there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
+        <h1 class="headText">Hi there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
         <h1 class="whatIam">
           I'm a <span class="whatIamE">FullStack</span> Developer
         </h1>
