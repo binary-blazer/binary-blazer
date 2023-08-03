@@ -60,6 +60,9 @@
 
         .avatar {
           border-radius: 50%;
+          background: url(https://avatars.githubusercontent.com/u/81481526?v=4);
+          background-size: cover;
+          background-position: center;
           width: 100px;
           height: 100px;
           shadow: 0 0 10px #00C8FF;
@@ -110,7 +113,7 @@
       </style>
 
       <div class="container">
-        <img src="https://cdn.discordapp.com/attachments/971049189377179718/1094666845581234266/dev.png" class="avatar" draggable="false" />
+        <div class="avatar" />
         <h1 class="headText">Hello there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
         <h1 class="whatIam">
           I'm a <span class="whatIamE">FullStack</span> Developer
