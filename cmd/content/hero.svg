@@ -1,23 +1,61 @@
-<svg fill="none" viewBox="0 0 600 400" width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 300" width="600" height="300" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        body {
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
+
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        .container {
           background: #000520;
           background-size: 400% 400%;
-          color: #ffffff;
-          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-          flex-direction: column;
-          display: flex;
-          align-items: center;
-          justify-content: center;
+          animation: gradient 15s ease infinite;
+
           width: 100%;
           height: 300px;
 
-          -webkit-user-select: none;
-          -moz-user-select: none;
-          -ms-user-select: none;
-          user-select: none;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: white;
+
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
+        @media (prefers-reduced-motion) {
+          .container {
+            animation: none;
+          }
+
+          .hi {
+            animation: none;
+          }
         }
 
         .avatar {
@@ -67,25 +105,20 @@
           text-align: center;
           font-size: 0.8rem;
           position: absolute;
-          bottom: 6.5rem;
+          bottom: 0.5rem;
         }
       </style>
-      <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <body style="height: 30vh; width: 30rem;">
+
+      <div class="container">
         <img src="https://cdn.discordapp.com/attachments/971049189377179718/1094666845581234266/dev.png" class="avatar" draggable="false" />
-        <h1 class="headText">
-          Hello there, I'm <span class="binaryblazer">BinaryBlazer</span> <img width="35" src="https://raw.githubusercontent.com/binary-blazer/readme-tests/main/cmd/img/waving.gif" class="waving" draggable="false" />
-        </h1>
+        <h1 class="headText">Hello there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
         <h1 class="whatIam">
           I'm a <span class="whatIamE">FullStack</span> Developer
         </h1>
         <h1 class="scrollForMore">
           Scroll for more.
         </h1>
-      </body>
+      </div>
     </div>
   </foreignObject>
 </svg>
