@@ -58,18 +58,6 @@
           }
         }
 
-        .avatar {
-          border-radius: 50%;
-          background: url(https://avatars.githubusercontent.com/u/81481526?v=4);
-          background-size: cover;
-          background-position: center;
-          width: 100px;
-          height: 100px;
-          shadow: 0 0 10px #00C8FF;
-          margin-top -10px;
-          border: 1px solid #00C8FF;
-        }
-
         .headText {
           text-align: center;
           margin-top: 0.5rem;
@@ -113,7 +101,6 @@
       </style>
 
       <div class="container">
-        <div class="avatar" />
         <h1 class="headText">Hello there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
         <h1 class="whatIam">
           I'm a <span class="whatIamE">FullStack</span> Developer
