@@ -1,0 +1,97 @@
+@keyframes hi  {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.container {
+  background: #000520;
+  border-radius: 1rem;
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+
+  width: 100%;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.hi {
+  animation: hi 1.5s linear -0.5s infinite;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@media (prefers-reduced-motion) {
+  .container {
+    animation: none;
+  }
+
+  .hi {
+    animation: none;
+  }
+}
+
+.headText {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.waving {
+  margin-left: 0.3rem;
+}
+
+.binaryblazer {
+  font-size: 1.5rem;
+  background: linear-gradient(to right, #00C8FF, #0077FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.whatIamE {
+  font-size: 1rem;
+  background: linear-gradient(to right, #00C8FF, #0077FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.whatIam {
+  text-align: center;
+  font-size: 1rem;
+  margin-top: -0.8rem;
+}
+
+.scrollForMore {
+  text-align: center;
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 0.5rem;
+}
