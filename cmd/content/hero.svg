@@ -4,6 +4,7 @@
       <style>
         body {
           background: #000520;
+          background-size: 400% 400%;
           color: #ffffff;
           font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
           flex-direction: column;
