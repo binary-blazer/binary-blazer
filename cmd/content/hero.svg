@@ -86,9 +86,89 @@
             position: absolute;
             bottom: 0.5rem;
         }
+
+        .perspective-left {
+            -webkit-perspective: 484px;
+            perspective: 484px;
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+        }
+
+        .perspective-right {
+            -webkit-perspective: 484px;
+            perspective: 484px;
+            -webkit-transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+        }
+
+        @keyframes star-animation1 {
+          0% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+          50% {
+            filter: drop-shadow(0 0 0.65rem #0077FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+          100% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+        }
+
+        @keyframes star-animation11 {
+          0% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: translateY(0) scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+          50% {
+            filter: drop-shadow(0 0 0.65rem #0077FF);
+            transform: translateY(-10px) scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+          100% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: translateY(0) scale(1) perspective(1000px) rotateX(23deg) rotateY(-23deg) rotate(15deg) translateX(55px);
+          }
+        }
+
+        @keyframes star-animation2 {
+          0% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+          50% {
+            filter: drop-shadow(0 0 0.65rem #0077FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+          100% {
+            filter: drop-shadow(0 0 0.65rem #00C8FF);
+            transform: scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+        }
+
+        @keyframes star-animation22 {
+          0% {
+            transform: translateY(0) scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+          50% {
+            transform: translateY(-10px) scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+          100% {
+            transform: translateY(0) scale(1) perspective(1000px) rotateX(23deg) rotateY(23deg) rotate(-9.8deg) translateX(0);
+          }
+        }
+
+        .star1 {
+          animation: star-animation1 2s linear infinite, star-animation11 6s linear infinite;
+        }
+
+        .star2 {
+          animation: star-animation2 2s linear infinite, star-animation22 4s linear infinite;
+        }
       </style>
 
       <div class="container">
+        <img class="star2" src="https://cdn.discordapp.com/attachments/909503780448514101/1136690965659271218/image.png" width="50" height="50" style="position: absolute; top: 0; left: 0; margin-top: 5.5rem; margin-left: 2.5rem;" draggable="false" />
+        <img class="star1" src="https://cdn.discordapp.com/attachments/909503780448514101/1136690965659271218/image.png" width="50" height="50" style="position: absolute; top: 0; right: 0; margin-top: 5.5rem; margin-right: 5.5rem;" draggable="false" />
         <h1 class="headText">Hi there, I'm <span class="binaryblazer">BinaryBlazer</span><div class="hi">👋</div></h1>
         <h1 class="whatIam">
           I'm a <span class="whatIamE">FullStack</span> Developer
