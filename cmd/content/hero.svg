@@ -2,31 +2,87 @@
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
-        @keyframes hi  {
-            0% { transform: rotate( 0.0deg) }
-           10% { transform: rotate(14.0deg) }
-           20% { transform: rotate(-8.0deg) }
-           30% { transform: rotate(14.0deg) }
-           40% { transform: rotate(-4.0deg) }
-           50% { transform: rotate(10.0deg) }
-           60% { transform: rotate( 0.0deg) }
-          100% { transform: rotate( 0.0deg) }
+        body {
+          background: #000520;
+          color: #ffffff;
+          font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+          flex-direction: column;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
         }
 
-        .hi {
-          animation: hi 1s infinite;
+        .avatar {
+          border-radius: 50%;
+          width: 100px;
+          height: 100px;
+          shadow: 0 0 10px #00C8FF;
+          margin-top -10px;
+          border: 1px solid #00C8FF;
+        }
+
+        .headText {
+          text-align: center;
+          margin-top: 0.5rem;
+          font-size: 1.5rem;
+        }
+
+        .waving {
+          margin-left: 0.3rem;
+        }
+
+        .binaryblazer {
+          font-size: 1.5rem;
+          background: linear-gradient(to right, #00C8FF, #0077FF);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-decoration: none;
+          transition: 0.25s;
+        }
+
+        .whatIamE {
+          font-size: 1rem;
+          background: linear-gradient(to right, #00C8FF, #0077FF);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-decoration: none;
+          transition: 0.25s;
+        }
+
+        .whatIam {
+          text-align: center;
+          font-size: 1rem;
+          margin-top: -0.8rem;
+        }
+
+        .scrollForMore {
+          text-align: center;
+          font-size: 0.8rem;
+          margin-top: 0.5rem;
+          position: absolute;
+          bottom: 0.3rem;
+          width: 100%;
         }
       </style>
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.16/tailwind.min.css" rel="stylesheet" />
       </head>
-      <body class="bg-gray-900 text-white flex flex-col items-center justify-center" style="height: 30vh; width: 30rem;">
-        <img src="https://avatars.githubusercontent.com/u/81481526?v=4" class="rounded-full w-16 h-16 shadow-2xl shadow-blue-900/20 border border-blue-500 -mt-12" />
-        <h1 class="text-xl font-bold mt-4">
-          Hello there, I'm <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-500">BinaryBlazer</span> <img width="35" src="https://github.com/binary-blazer/readme-tests/blob/main/cmd/img/waving.gif" />
+      <body style="height: 30vh; width: 30rem;">
+        <img src="https://avatars.githubusercontent.com/u/81481526?v=4" class="avatar" draggable="false" />
+        <h1 class="headText">
+          Hello there, I'm <span class="binaryblazer">BinaryBlazer</span> <img width="35" src="https://raw.githubusercontent.com/binary-blazer/readme-tests/main/cmd/img/waving.gif" class="waving" draggable="false" />
+        </h1>
+        <h1 class="whatIam">
+          I'm a <span class="whatIamE">FullStack</span> Developer
+        </h1>
+        <h1 class="scrollForMore">
+          Scroll for more.
         </h1>
       </body>
     </div>
