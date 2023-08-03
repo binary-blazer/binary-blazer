@@ -11,7 +11,7 @@
 
 .container {
   background: #000520;
-  border-radius: 1rem;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
   background-size: 400% 400%;
 
   width: 100%;
