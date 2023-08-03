@@ -73,7 +73,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body style="height: 140vh; width: 30rem;">
+      <body style="height: 40vh; width: 30rem;">
         <img src="https://avatars.githubusercontent.com/u/81481526?v=4" class="avatar" draggable="false" />
         <h1 class="headText">
           Hello there, I'm <span class="binaryblazer">BinaryBlazer</span> <img width="35" src="https://raw.githubusercontent.com/binary-blazer/readme-tests/main/cmd/img/waving.gif" class="waving" draggable="false" />
