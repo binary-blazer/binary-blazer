@@ -4,6 +4,7 @@
       <style>
          .container {
             background: #000520;
+            border-radius: 0 0 1rem 1rem;
             background-size: 400% 400%;
 
             width: 100%;
@@ -26,30 +27,12 @@
             text-decoration: none;
             transition: 0.25s;
         }
-
-        .aboutBrief {
-            font-size: 1rem;
-            text-align: center;
-            color: #fff;
-            max-width: 570px;
-            text-decoration: none;
-            transition: 0.25s;
-        }
-
-        .markedText {
-            font-size: 1rem;
-            background: linear-gradient(to right, #00C8FF, #0077FF);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            text-decoration: none;
-            transition: 0.25s;
-        }
       </style>
 
       <div class="container">
-          <h1 class="headText">About Me</h1>
-          <h1 class="aboutBrief">I'm a 15 year old <span class="markedText">fullstack</span> developer from <span class="markedText">Germany</span>. I love to code and the work on new projects. I'm currently working on several things and projects. If you wan't to know which <span class="markedText">technologies</span> I use, scroll down.</h1>
+          <h1 class="headText">Technologies</h1>
+          <img src="https://skillicons.dev/icons?i=js,html,css,wasm,androidstudio,angular,atom,azure,bash,babel,blender,bootstrap,c,cs,cpp,cloudflare,cmake,deno,discord,docker,electron,elixir,express,fastapi,figma,firebase,gatsby,gcp,git,github,githubactions,gitlab,go,heroku,js,kotlin,linux,lua,md,mongodb,mysql,nestjs,netlify,nextjs,nginx,nodejs,nuxtjs,powershell,prisma,react,stackoverflow,svg,tailwind,threejs,twitter,ts,vscode,vue,webpack" alt="HTML5" width="100%" height="100%" style="margin: -2.5rem; max-width: 570px;" draggable="false" />
       </div>
     </div>
-  </foreignObject>
+    </foreignObject>
 </svg>
