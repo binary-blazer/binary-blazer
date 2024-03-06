@@ -1,5 +1,5 @@
-Some stats:
 <br />
+[![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonasfranke@sdevs.org)](mailto:mail@clqu.dev)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=binary-blazer)
 
 ----
