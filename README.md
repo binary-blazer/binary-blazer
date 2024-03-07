@@ -18,7 +18,7 @@ Trophies:
 
 Some more stats:
 <div width="100%">
-<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=binary-blazer&theme=black-ice&hide_border=true&stroke=0000&background=0D1117">
+<img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=binary-blazer&theme=black-ice&hide_border=true&stroke=0000&background=0D1117" />
 </div>
 <br />
 <div width="100%">
