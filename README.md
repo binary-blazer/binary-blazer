@@ -13,10 +13,6 @@
 
 ----
 
-Trophies:
-<img src="https://github-profile-trophy.vercel.app/?username=binary-blazer&theme=darkhub&no-frame=true&margin-w=15&margin-h=15" />
-
-Some more stats:
 <div width="100%">
 <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=binary-blazer&theme=black-ice&hide_border=true&stroke=0000&background=0D1117" />
 </div>
