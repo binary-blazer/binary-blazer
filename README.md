@@ -1,5 +1,3 @@
-![binary-blazer](https://raw.githubusercontent.com/binary-blazer/repo-svgs/main/out/binary-blazer/image.svg)
-
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonasfranke@sdevs.org)](mailto:jonasfranke@sdevs.org)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=binary-blazer)
 
