@@ -1,6 +1,5 @@
 [![Email Badge](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:jonasfranke@sdevs.org)](mailto:jonasfranke@sdevs.org)
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=binary-blazer)
-[![committers.top badge](https://user-badge.committers.top/germany/binary-blazer.svg)](https://user-badge.committers.top/germany/binary-blazer)
 
 ----
 
